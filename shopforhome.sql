@@ -36,8 +36,7 @@ CREATE TABLE `admin` (
 
 LOCK TABLES `admin` WRITE;
 /*!40000 ALTER TABLE `admin` DISABLE KEYS */;
-INSERT INTO `admin` VALUES (3,'veeresh','12345'),(5,'veeresh','123456'),(6,'tarun','123'),(7,'manoj','123'),(8,'chetan','12345'),(9,'ashu','12345'),(10,'as','asd'),(11,'admin','123'),(12,'admin1','admin'),(13,'admin','admin123');
-/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
+INSERT INTO `admin` VALUES (1,'Tanisha','tanisha'),(2,'Tanisha','tan'),(3,'Nikita','nik'),(4,'Nikita','niki'),(5,'Ali','1111'),(6,'Ali','9999'),(7,'Ayush','ayush'),(8,'Ayush','ayu'),(9,'Admin1','admin1'),(10,'Admin2','admin2');/*!40000 ALTER TABLE `admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -66,7 +65,7 @@ CREATE TABLE `cart` (
 
 LOCK TABLES `cart` WRITE;
 /*!40000 ALTER TABLE `cart` DISABLE KEYS */;
-INSERT INTO `cart` VALUES (89,'white sofa','1',4999,20,'admin','https://www.ulcdn.net/images/products/309981/original/FNSF52WCNW3_-_main_1.png?1606711207',28);
+INSERT INTO `cart` VALUES (89,'wall Painting','1',4999,20,'admin','https://www.wish.com/de/product/good-quality-drawing-art-phoenix-girl-magic-background-painting-home-decor-wall-art-painting-wall-painting-picture-modern-no-frame-5e1bccca973a96454574ee61',28);
 /*!40000 ALTER TABLE `cart` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -174,8 +173,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'john','admin','john123'),(3,'romo','admin','romo123'),(6,'veeresh','user','123456789'),(14,'admin','admin','admin123'),(17,'user1','user','user123'),(18,'user2','user','user123');
-/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+INSERT INTO `users` VALUES (1,'user1','admin','user1123'),(3,'user2','admin','user2123'),(6,'Tanisha','user','tanisha'),(14,'admin1','admin','admin123'),(17,'user3','user','user3123'),(18,'user4','user','user4123');/*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -215,5 +213,7 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-06-26 19:30:00
 
 -- Dump completed on 2022-06-26 19:30:00
